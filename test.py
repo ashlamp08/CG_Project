@@ -1,11 +1,12 @@
 import bpy
 import bmesh
+import sys
 
 bpy.ops.object.delete(use_global=False)
 
 mesh = bmesh.new()
 
-inputFile = open("/home/ashok/CGAL/CG_Project/build/output")
+inputFile = open(sys.argv[sys.argv.index("--") + 1])
 
 verticesCount = int(inputFile.readline())
 vertices = []

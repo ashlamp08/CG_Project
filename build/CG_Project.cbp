@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="CG_Project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test1">
+         <Option output="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/test1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DCGAL_USE_CORE" />
+            <Add directory="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 test1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test1/fast">
+         <Option output="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/test1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DCGAL_USE_CORE" />
+            <Add directory="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 test1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Intersection">
+         <Option output="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Intersection" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DCGAL_USE_CORE" />
+            <Add directory="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 Intersection" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Intersection/fast">
+         <Option output="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Intersection" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DCGAL_USE_CORE" />
+            <Add directory="/home/temp/ashok_b130055cs/CG_Project/CG_Project/build" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 Intersection/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/Intersection.cpp">
+         <Option target="Intersection"/>
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/test1.cpp">
+         <Option target="test1"/>
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALExports.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALExports-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/UseCGAL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_VersionUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_Common.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/temp/ashok_b130055cs/CG_Project/CG_Project/../../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_TweakFindBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

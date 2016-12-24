@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/temp/ashok_b130055cs/CG_Project/CG_Project/Intersection.cpp
+CGAL/Simple_cartesian.h
+-
+CGAL/intersections.h
+-
+iostream
+-
+

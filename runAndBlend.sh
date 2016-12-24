@@ -44,4 +44,14 @@ then
 	echo Program Failed
 	exit 1
 fi
-/home/ashok/blender-2.78a-linux-glibc211-x86_64/blender ../visualize.blend -P ../test.py
+if ! [ -f "../visualize.blend" ]
+then
+	echo 'ERROR: "../visualize.blend' "doesn't exits. Change to a Directory which has visualize.blend in its Parent Directory"
+	exit 1
+fi
+if ! [ -f "../test.py" ]
+then
+	echo 'ERROR: "../test.py' "doesn't exits. Change to a Directory which has visualize.blend in its Parent Directory"
+	exit 1
+fi
+blender ../visualize.blend -P ../test.py -- $outputFile

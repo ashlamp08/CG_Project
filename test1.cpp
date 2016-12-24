@@ -13,7 +13,7 @@
 #define Segment3D Kernel::Segment_3
 #define DT3 CGAL::Delaunay_triangulation_3<Kernel>
 
-bool cmp(const Segment3D& a, const Segment3D& b){ return a.squared_length() < b.squared_length(); }
+bool mycmp(const Segment3D& a, const Segment3D& b){ return a.squared_length() < b.squared_length(); }
 
 int main(int argc, char *argv[]) {
 
@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
 	// for(auto edge:allEdges)
 		// std::cout << index[edge.start()] << " " << index[edge.end()] << "\n";
 
-	std::sort(allEdges.begin(),allEdges.end(),cmp);
+	std::sort(allEdges.begin(),allEdges.end(),mycmp);
 
 	for (auto edge : allEdges) {
 		if (mapping.find(edge.start()) == mapping.end()) {
