@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/temp/ashok_b130055cs/CG_Project/CG_Project
+CMAKE_SOURCE_DIR = /home/ashok/CG_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/temp/ashok_b130055cs/CG_Project/CG_Project/build
+CMAKE_BINARY_DIR = /home/ashok/CG_Project/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/test1.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/temp/ashok_b130055cs/CG_Project/CG_Project/build
 CMakeFiles/test1.dir/all:
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/depend
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/CMakeFiles --progress-num=3,4 "Built target test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ashok/CG_Project/build/CMakeFiles --progress-num=3,4 "Built target test1"
 .PHONY : CMakeFiles/test1.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/test1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/temp/ashok_b130055cs/CG_Project/CG_Project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashok/CG_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/temp/ashok_b130055cs/CG_Project/CG_Project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashok/CG_Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/test1.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/test1.dir/clean
 CMakeFiles/Intersection.dir/all:
 	$(MAKE) -f CMakeFiles/Intersection.dir/build.make CMakeFiles/Intersection.dir/depend
 	$(MAKE) -f CMakeFiles/Intersection.dir/build.make CMakeFiles/Intersection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/CMakeFiles --progress-num=1,2 "Built target Intersection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ashok/CG_Project/build/CMakeFiles --progress-num=1,2 "Built target Intersection"
 .PHONY : CMakeFiles/Intersection.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/Intersection.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Intersection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/temp/ashok_b130055cs/CG_Project/CG_Project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashok/CG_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Intersection.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/temp/ashok_b130055cs/CG_Project/CG_Project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashok/CG_Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/Intersection.dir/rule
 
 # Convenience name for target.

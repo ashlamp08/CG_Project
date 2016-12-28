@@ -1,4 +1,4 @@
-# Install script for directory: /home/temp/ashok_b130055cs/CG_Project/CG_Project
+# Install script for directory: /home/ashok/CG_Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/temp/ashok_b130055cs/CG_Project/CG_Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ashok/CG_Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
